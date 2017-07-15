@@ -46,7 +46,7 @@ After reading this article I promise you, you will say this -
 
 This article will make you fall in love ❤️ with Redux.
 
-According to the [official site](http://redux.js.org/), **Redux** is a predictable state container for JavaScript Applications.
+According to the [official site](https://redux.js.org/), **Redux** is a predictable state container for JavaScript Applications.
 
 Now what the hell 😕 that means.
 

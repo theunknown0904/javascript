@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="https://www.w3.org/2005/Atom">
   <channel>
     <title>Js tuts on The Unknown Rabbit - JavaScript, React &amp; React Native</title>
-    <link>http://replace-this-with-your-hugo-site.com/categories/js-tuts/</link>
+    <link>https://replace-this-with-your-hugo-site.com/categories/js-tuts/</link>
     <description>Recent content in Js tuts on The Unknown Rabbit - JavaScript, React &amp; React Native</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 29 Jun 2017 21:39:19 +0530</lastBuildDate>
-    <atom:link href="http://replace-this-with-your-hugo-site.com/categories/js-tuts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://replace-this-with-your-hugo-site.com/categories/js-tuts/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>learn javascript step by step from beginner to intermediate to advanced</title>
-      <link>http://replace-this-with-your-hugo-site.com/post/learn-javascript-step-by-step-from-beginner-to-intermediate-to-advanced/</link>
+      <link>https://replace-this-with-your-hugo-site.com/post/learn-javascript-step-by-step-from-beginner-to-intermediate-to-advanced/</link>
       <pubDate>Thu, 29 Jun 2017 21:39:19 +0530</pubDate>
       
-      <guid>http://replace-this-with-your-hugo-site.com/post/learn-javascript-step-by-step-from-beginner-to-intermediate-to-advanced/</guid>
+      <guid>https://replace-this-with-your-hugo-site.com/post/learn-javascript-step-by-step-from-beginner-to-intermediate-to-advanced/</guid>
       <description>
 
-&lt;p&gt;&lt;img src=&#34;http://imgur.com/4WqZdpr.png&#34; alt=&#34;So why is JavaScript so good&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://imgur.com/4WqZdpr.png&#34; alt=&#34;So why is JavaScript so good&#34; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&#34;introduction:e05609db6fa180fe6a887d342df1b7db&#34;&gt;Introduction&lt;/h1&gt;
 
@@ -141,7 +141,7 @@
 
 &lt;p&gt;Then you should see something like the following -&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://imgur.com/0y9VVZN.png&#34; alt=&#34;Chrome Developer Tools&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://imgur.com/0y9VVZN.png&#34; alt=&#34;Chrome Developer Tools&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a name=&#34;beginner-level&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 

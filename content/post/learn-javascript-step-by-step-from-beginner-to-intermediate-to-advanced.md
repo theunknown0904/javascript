@@ -52,7 +52,7 @@ title = "learn javascript step by step from beginner to intermediate to advanced
 
 +++
 
-![So why is JavaScript so good](http://imgur.com/4WqZdpr.png)
+![So why is JavaScript so good](https://imgur.com/4WqZdpr.png)
 
 # Introduction
 
@@ -146,7 +146,7 @@ Shortcut key for Google Chrome is `F12`.
 
 Then you should see something like the following - 
 
-![Chrome Developer Tools](http://imgur.com/0y9VVZN.png)
+![Chrome Developer Tools](https://imgur.com/0y9VVZN.png)
 
 <a name="beginner-level"></a>
 
