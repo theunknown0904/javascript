@@ -1,0 +1,1562 @@
+<!DOCTYPE HTML>
+
+<html>
+    <head>
+        
+            
+                <title>demystifying redux</title>
+            
+        
+
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="generator" content="Hugo 0.24.1" />
+        
+
+
+        
+        
+            
+                <meta name="description" content="JavaScript Lover 😘 NodeJS as GF 😜 React &amp; ReactNative Spouse 😍 Blogger by Day 😌 Coder by Night 😋">
+            
+        
+
+        
+
+  <meta name="twitter:card" content="summary"/>
+
+
+
+<meta name="twitter:text:title" content="demystifying redux"/>
+<meta name="twitter:title" content="demystifying redux"/>
+<meta name="twitter:description" content="Introduction Redux can be complicated at first.
+But after you understand the basics it can be very easy.
+This article will ensure that you understand Redux with the help of some examples.
+After reading this article I promise you, you will say this -
+This article will make you fall in love ❤️ with Redux.
+According to the official site, Redux is a predictable state container for JavaScript Applications."/>
+<meta name="twitter:site" content="@theunknown0904"/>
+
+        <meta property="og:title" content="demystifying redux" />
+<meta property="og:description" content="Introduction Redux can be complicated at first.
+But after you understand the basics it can be very easy.
+This article will ensure that you understand Redux with the help of some examples.
+After reading this article I promise you, you will say this -
+This article will make you fall in love ❤️ with Redux.
+According to the official site, Redux is a predictable state container for JavaScript Applications." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://theunknown0904.github.io/javascript/post/demystifying-redux/" />
+
+
+
+<meta property="article:published_time" content="2017-06-30T11:10:56&#43;05:30"/>
+<meta property="article:modified_time" content="2017-06-30T11:10:56&#43;05:30"/>
+
+
+
+
+
+
+
+
+
+
+
+        
+<meta itemprop="name" content="demystifying redux">
+<meta itemprop="description" content="Introduction Redux can be complicated at first.
+But after you understand the basics it can be very easy.
+This article will ensure that you understand Redux with the help of some examples.
+After reading this article I promise you, you will say this -
+This article will make you fall in love ❤️ with Redux.
+According to the official site, Redux is a predictable state container for JavaScript Applications.">
+
+
+<meta itemprop="dateModified" content="2017-06-30T11:10:56&#43;05:30" />
+<meta itemprop="wordCount" content="1112">
+
+
+
+<meta itemprop="keywords" content="javascript,javascript advanced,javascript beginner,javascript download,javascript ebook,javascript examples,javascript free ebook,javascript free pdf,javascript intermediate,javascript interview questions and answers,javascript pdf,javascript step by step,javascript syntax,javascript tutorial,javascript tutorial for beginners,javascript tutorial pdf,javascript tutorial with examples,javascript tutorials,javascript tuts,js,js advanced,js beginner,js download,js ebook,js examples,js free ebook,js free pdf,js intermediate,js interview questions and answers,js pdf,js step by step,js syntax,js tutorial,js tutorial for beginners,js tutorial pdf,js tutorial with examples,js tutorials,js tuts,learn pure redux,learn redux,proper use of redux,pure redux,react redux example,react redux tutorial 2016,react redux tutorial 2017,redux,redux 2015,redux 2016,redux 2017,redux definition,redux js,redux react tutorial,redux tutorial for beginners,redux usage examples,vanilla redux,what is javascript,what is js,what is redux js," />
+
+        
+
+        
+
+        
+        
+            
+        
+
+        
+        
+            <link rel="stylesheet" href="/css/google-font.css" />
+            <link rel="stylesheet" href="/css/font-awesome.min.css" />
+            <link rel="stylesheet" href="/css/main.css" />
+            <link rel="stylesheet" href="/css/add-on.css" />
+            <link rel="stylesheet" href="/css/monokai-sublime.css">
+        
+
+        
+
+        
+        
+        
+            
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-22342495-1', 'auto');
+ga('send', 'pageview');
+</script>
+
+        
+    </head>
+    <body>
+
+        
+        <div id="wrapper">
+
+    
+    
+<header id="header">
+    
+        <h2><a href="/">The Unknown</i></a></h2>
+    
+
+    <nav class="links">
+        <ul>
+            
+                <li>
+                    <a href="/javascript/categories">
+                        
+                            <i class="fa fa-folder-open-o">&nbsp;</i>Categories
+                    </a>
+                </li>
+            
+        </ul>
+    </nav>
+    <nav class="main">
+        <ul>
+            
+            <li id="share-nav" class="share-menu" style="display:none;">
+                <a class="fa-share-alt" href="#share-menu">Share</a>
+            </li>
+            
+            <li class="search">
+                <a class="fa-search" href="#search">Search</a>
+                <form id="search" method="get" action="//google.com/search">
+                    <input type="text" name="q" placeholder="Search" />
+                    <input type="hidden" name="q" value="site:https://theunknown0904.github.io/javascript/">
+                </form>
+            </li>
+            <li class="menu">
+                <a class="fa-bars" href="#menu">Menu</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+
+<section id="menu">
+
+    
+        <section>
+            <form class="search" method="get" action="//google.com/search">
+                <input type="text" name="q" placeholder="Search" />
+                <input type="hidden" name="q" value="site:https://theunknown0904.github.io/javascript/">
+            </form>
+        </section>
+
+    
+        <section>
+            <ul class="links">
+                
+                    <li>
+                        <a href="/javascript/categories">
+                            <h3>
+                                
+                                    <i class="fa fa-folder-open-o">&nbsp;</i>
+                                
+                                Categories
+                            </h3>
+                        </a>
+                    </li>
+                
+            </ul>
+        </section>
+
+    
+        <section>
+            <ul class="links">
+                <header>
+                    <h3>Recent Posts</h3>
+                </header>
+                
+                    
+                
+
+                
+                    <li>
+                        <a href="https://theunknown0904.github.io/javascript/post/demystifying-redux/"><p>demystifying redux</p></a>
+                    </li>
+                
+                    <li>
+                        <a href="https://theunknown0904.github.io/javascript/post/learn-javascript-step-by-step-from-beginner-to-intermediate-to-advanced/"><p>learn javascript step by step from beginner to intermediate to advanced</p></a>
+                    </li>
+                
+                    <li>
+                        <a href="https://theunknown0904.github.io/javascript/post/"><p>Posts</p></a>
+                    </li>
+                
+            </ul>
+        </section>
+
+    
+        
+</section>
+
+    <section id="share-menu">
+    <section id="social-share-nav">
+        <ul class="links">
+            <header>
+                <h3>Share this post <i class="fa fa-smile-o"></i></h3>
+            </header>
+            
+
+
+<li><a href="//twitter.com/share?url=https%3a%2f%2ftheunknown0904.github.io%2fjavascript%2fpost%2fdemystifying-redux%2f&text=demystifying%20redux&via=theunknown0904" target="_blank" class="share-btn twitter">
+    <i class="fa fa-twitter"></i>
+    <p>Twitter</p>
+</a></li>
+
+
+<li><a href="//plus.google.com/share?url=https%3a%2f%2ftheunknown0904.github.io%2fjavascript%2fpost%2fdemystifying-redux%2f" target="_blank" class="share-btn google-plus">
+    <i class="fa fa-google-plus"></i>
+    <p>Google+</p>
+</a></li>
+
+
+<li><a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2ftheunknown0904.github.io%2fjavascript%2fpost%2fdemystifying-redux%2f" target="_blank" class="share-btn facebook">
+    <i class="fa fa-facebook"></i>
+    <p>Facebook</p>
+</a></li>
+
+
+<li><a href="//reddit.com/submit?url=https%3a%2f%2ftheunknown0904.github.io%2fjavascript%2fpost%2fdemystifying-redux%2f&title=demystifying%20redux" target="_blank" class="share-btn reddit">
+    <i class="fa fa-reddit-alien"></i>
+    <p>Reddit</p>
+</a></li>
+
+
+<li><a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2ftheunknown0904.github.io%2fjavascript%2fpost%2fdemystifying-redux%2f&title=demystifying%20redux" target="_blank" class="share-btn linkedin">
+    <i class="fa fa-linkedin"></i>
+    <p>LinkedIn</p>
+</a></li>
+
+
+<li><a href="//www.stumbleupon.com/submit?url=https%3a%2f%2ftheunknown0904.github.io%2fjavascript%2fpost%2fdemystifying-redux%2f&title=demystifying%20redux" target="_blank" class="share-btn stumbleupon">
+    <i class="fa fa-stumbleupon"></i>
+    <p>StumbleUpon</p>
+</a></li>
+
+
+<li><a href="mailto:?subject=Check out this post by &body=https%3a%2f%2ftheunknown0904.github.io%2fjavascript%2fpost%2fdemystifying-redux%2f" target="_blank" class="share-btn email">
+    <i class="fa fa-envelope"></i>
+    <p>Email</p>
+</a></li>
+
+        </ul>
+    </section>
+</section>
+
+    
+    <div id="main">
+        
+        
+        <article class="post">
+    <header>
+    <div class="title">
+        
+            <h1><a href="https://theunknown0904.github.io/javascript/post/demystifying-redux/">demystifying redux</a></h1>
+            
+        
+        
+    </div>
+    <div class="meta">
+        
+            
+        
+
+        <time class="published"
+            datetime='2017-06-30'>
+            June 30, 2017</time>
+        <span class="author"></span>
+        
+            <p>6 minute read</p>
+        
+        
+    </div>
+</header>
+
+
+    <section id="social-share">
+        <ul class="icons">
+            
+
+
+<li><a href="//twitter.com/share?url=https%3a%2f%2ftheunknown0904.github.io%2fjavascript%2fpost%2fdemystifying-redux%2f&text=demystifying%20redux&via=theunknown0904" target="_blank" class="share-btn twitter">
+    <i class="fa fa-twitter"></i>
+    <p>Twitter</p>
+</a></li>
+
+
+<li><a href="//plus.google.com/share?url=https%3a%2f%2ftheunknown0904.github.io%2fjavascript%2fpost%2fdemystifying-redux%2f" target="_blank" class="share-btn google-plus">
+    <i class="fa fa-google-plus"></i>
+    <p>Google+</p>
+</a></li>
+
+
+<li><a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2ftheunknown0904.github.io%2fjavascript%2fpost%2fdemystifying-redux%2f" target="_blank" class="share-btn facebook">
+    <i class="fa fa-facebook"></i>
+    <p>Facebook</p>
+</a></li>
+
+
+<li><a href="//reddit.com/submit?url=https%3a%2f%2ftheunknown0904.github.io%2fjavascript%2fpost%2fdemystifying-redux%2f&title=demystifying%20redux" target="_blank" class="share-btn reddit">
+    <i class="fa fa-reddit-alien"></i>
+    <p>Reddit</p>
+</a></li>
+
+
+<li><a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2ftheunknown0904.github.io%2fjavascript%2fpost%2fdemystifying-redux%2f&title=demystifying%20redux" target="_blank" class="share-btn linkedin">
+    <i class="fa fa-linkedin"></i>
+    <p>LinkedIn</p>
+</a></li>
+
+
+<li><a href="//www.stumbleupon.com/submit?url=https%3a%2f%2ftheunknown0904.github.io%2fjavascript%2fpost%2fdemystifying-redux%2f&title=demystifying%20redux" target="_blank" class="share-btn stumbleupon">
+    <i class="fa fa-stumbleupon"></i>
+    <p>StumbleUpon</p>
+</a></li>
+
+
+<li><a href="mailto:?subject=Check out this post by &body=https%3a%2f%2ftheunknown0904.github.io%2fjavascript%2fpost%2fdemystifying-redux%2f" target="_blank" class="share-btn email">
+    <i class="fa fa-envelope"></i>
+    <p>Email</p>
+</a></li>
+
+        </ul>
+    </section>
+    
+
+    <div id="content">
+        
+
+<p><img src="/images/demystifying-redux/home.jpg" alt="Demystifying Redux" /></p>
+
+<h1 id="introduction">Introduction</h1>
+
+<p>Redux can be complicated at first.</p>
+
+<p>But after you understand the basics it can be very easy.</p>
+
+<p>This article will ensure that you understand Redux with the help of some examples.</p>
+
+<p>After reading this article I promise you, you will say this -</p>
+
+<p><img src="/images/demystifying-redux/i-know-redux.jpg" alt="I know Redux" /></p>
+
+<p>This article will make you fall in love ❤️ with Redux.</p>
+
+<p>According to the <a href="https://redux.js.org/">official site</a>, <strong>Redux</strong> is a predictable state container for JavaScript Applications.</p>
+
+<p>Now what the hell 😕 that means.</p>
+
+<p>Well I&rsquo;ll try to explain it in parts.</p>
+
+<h1 id="table-of-contents">Table of Contents</h1>
+
+<ol>
+<li><a href="#why-we-need-redux?">Why we need Redux?</a></li>
+<li><a href="#immutability">Immutability</a></li>
+<li><a href="#pure-functions">Pure Functions</a></li>
+<li><a href="#three-principles">Three Principles of Redux</a>
+
+<ol>
+<li><a href="#single-source">Single Source of Truth</a></li>
+<li><a href="#read-only-state">State is Read Only</a></li>
+<li><a href="#changes-with-pure-functions-only">Changes are made with pure functions only</a></li>
+</ol></li>
+<li><a href="#examples">Examples</a>
+
+<ol>
+<li><a href="#counter">Counter</a></li>
+<li><a href="#todo">Todo</a></li>
+<li><a href="#bank">Bank</a></li>
+</ol></li>
+<li><a href="#dependants-of-redux?">Dependants of Redux?</a></li>
+<li><a href="#conclusion">Conclusion</a></li>
+</ol>
+
+<p><a name="why-we-need-redux?"></a></p>
+
+<h1 id="1-why-we-need-redux">1. Why we need Redux?</h1>
+
+<p>Managing State of Application can become cumbersome when the application is a mid-level or enterprise-level application.</p>
+
+<p>That&rsquo;s why we need a mechanism to manage state efficiently so that it can scale to any application from small scale to large scale.</p>
+
+<p>Enter <a href="https://redux.js.org">Redux</a></p>
+
+<p>Redux makes it easy to store the state of any application efficiently.</p>
+
+<p>It does that by creating 1 giant object &amp; this giant object consists of all the application state.</p>
+
+<p>Now you might be thinking what the hell is state 😕 !?</p>
+
+<p>State can be anything in the application that needs to be remembered by the application.</p>
+
+<p>For example,</p>
+
+<p>Consider a simple <code>COUNTER APPLICATION</code> which consists of the <code>CURRENT COUNT</code> &amp; also has 2 buttons <code>INCREMENT</code>  &amp; <code>DECREMENT</code>.</p>
+
+<p><img src="/images/demystifying-redux/counter.png" alt="Counter Application" /></p>
+
+<p>Here, the only thing to be remembered in the application is the <code>CURRENT COUNT</code> value as it is the one changing constantly whenever user clicks <code>INCREMENT</code> or <code>DECREMENT</code> button that&rsquo;s why for the <code>COUNTER APPLICATION</code>, the state is <code>CURRENT COUNT</code>.</p>
+
+<p>Consider another example application like a <code>BLOG POST</code>, it will consists of a lot of different blogs.</p>
+
+<p><img src="/images/demystifying-redux/blog-1.png" alt="Blog Post 1" /></p>
+
+<p>Each of the blog post will have <code>COMMENT</code> section &amp; each of the comments will have <code>HEART</code> to show some love to the post. Here, the state of the application which needs to be remembered is the <code>COMMENT</code> &amp; <code>HEART</code> as these are the ones changing.</p>
+
+<p><img src="/images/demystifying-redux/blog-2.png" alt="Blog Post 2" /></p>
+
+<p><code>COMMENT</code> is in the state because if someone clicks on <code>HEART</code> to show some love the comment then on which comment it was clicked must be remembered so that&rsquo;s the reason <code>COMMENT</code> is needed or if you prefer you can use a specific <code>ID</code> which is unique for each comment as the state.</p>
+
+<p>I hope these might have cleared what state really is 😃</p>
+
+<p><a name="immutability"></a></p>
+
+<h1 id="2-immutability">2. Immutability</h1>
+
+<p>Immutability means something that cannot be mutated, i.e, changed or modified after its creation.</p>
+
+<p>Consider an example in JavaScript,</p>
+
+<pre><code>let str = `Hello JavaScript`;
+console.log(str.substr(0, 10));
+console.log(str);
+</code></pre>
+
+<p>The result of the above code is -</p>
+
+<pre><code>Hello Java
+Hello JavaScript
+</code></pre>
+
+<p>The <code>substr()</code> method on String does not mutate the original string <code>str</code>. That&rsquo;s why strings in JavaScript are immutable.</p>
+
+<p>They are not the only immutable value in JavaScript. Numbers are immutable too.</p>
+
+<p>Numbers example -</p>
+
+<pre><code>let x = 10;
+x = x + 1;
+</code></pre>
+
+<p>The result of the above code gives value of <code>x</code> to be 11.</p>
+
+<p>Now you might be saying how is this immutable !? 😕</p>
+
+<p>The first statement <code>var x = 10;</code> assigns value 10 to variable <code>x</code>.</p>
+
+<p>The second statement references the <code>x</code> to the current value of <code>x</code> + 1.</p>
+
+<p>The statement doesn&rsquo;t change the meaning of value <code>10</code>.</p>
+
+<p>The memory allocated to <code>x</code> refers to the new value <code>11</code>.</p>
+
+<p>Arrays are mutable in JavaScript.</p>
+
+<p>Consider an example -</p>
+
+<pre><code>const arr = [1, 2, 3];
+arr.push(4);
+console.log(arr);
+</code></pre>
+
+<p>The result of the above code is -</p>
+
+<pre><code>[1, 2, 3, 4]
+</code></pre>
+
+<p>This makes sense as Arrays are mutable.</p>
+
+<p>Consider same example using <a href="https://facebook.github.io/immutable-js/">Immutable JS</a> -</p>
+
+<pre><code>const arr = Immutable.List.of([1, 2, 3]);
+arr.push(4);
+console.log(arr);
+</code></pre>
+
+<p>The result of the above code is -</p>
+
+<pre><code>[1, 2, 3]
+</code></pre>
+
+<p>This is because of Immutability.</p>
+
+<p>Read <a href="https://facebook.github.io/immutable-js/">Immutable JS</a> docs to learn more about Immutability in JavaScript.</p>
+
+<p>Now why would we use Immutability anywhere !? 🤔</p>
+
+<p>Immutability gives a lot of predictibility.</p>
+
+<p>It means you don&rsquo;t have to check if some array is modified in the code you know it isn&rsquo;t changed by any assignment operator because of its immutable nature.</p>
+
+<p>Example -</p>
+
+<pre><code>const arr = new ImmutableArray([1, 2, 3]); // Imaginary class which creates an Immutable Array
+const newArr = arr.push(5);
+
+/*
+    ******************************************
+    ******************************************
+    ******************************************
+    ******************************************
+    ******************************************
+    ******************************************
+    ******************************************
+    ******************************************
+    ******************************************
+
+
+    some big chunk of code which edits `newArr`
+
+
+    ******************************************
+    ******************************************
+    ******************************************
+    ******************************************
+    ******************************************
+    ******************************************
+    ******************************************
+    ******************************************
+    ******************************************
+    
+*/
+
+
+
+console.log(arr); 
+
+/*
+ arr is still the same here - [1, 2, 3] 
+ if it wasn't immutable it would've changed to the value of newArr
+*/
+
+</code></pre>
+
+<p>This helps in reducing errors &amp; makes us more productive.</p>
+
+<p>It also comes with performance benefits, more times than other.</p>
+
+<p>If you consider Immutability in some parts of operations isolated then the performance will be less.</p>
+
+<p>But if you consider overall performance then it will be a huge benefit.</p>
+
+<p>The following articles are great to know about Immutability in JavaScript -</p>
+
+<p><a href="https://www.sitepoint.com/immutability-javascript/"><strong>Immutability in JavaScript</strong></a></p>
+
+<p><a href="https://wecodetheweb.com/2016/02/12/immutable-javascript-using-es6-and-beyond/"><strong>Immutable Javascript using ES6 and beyond</strong></a></p>
+
+<p><a name="pure-functions"></a></p>
+
+<h1 id="3-pure-functions">3. Pure Functions</h1>
+
+<p><strong>Pure Functions</strong> is a functional programming concept.</p>
+
+<p>But, what is a function ? 😕</p>
+
+<p>A function is a process which takes some input &amp; returns some output.</p>
+
+<p>Simple. ❣️</p>
+
+<p>Now, what is a pure function ? 🤔</p>
+
+<p>A function is said to be pure if it returns the same result when given the same parameters.</p>
+
+<p>Consider an example -</p>
+
+<pre><code>const square = x =&gt; x * x;
+square(4); // 16
+</code></pre>
+
+<p>The <code>square()</code> function will always return the same value when given the same parameters.</p>
+
+<p>That&rsquo;s why this function is a pure function.</p>
+
+<p>A more appropriate definition of <strong>Pure Function</strong> is a function which :</p>
+
+<ul>
+<li><p><em>Given the same input, will always return the same output.</em></p></li>
+
+<li><p><em>Produces no side effects.</em></p></li>
+
+<li><p><em>Relies on no external mutable state.</em></p></li>
+</ul>
+
+<p>Example of an <strong>Impure function</strong> is -</p>
+
+<pre><code>let count = 0;
+const increment = () =&gt; count++;
+</code></pre>
+
+<p>The above <code>increment()</code> function increments variable <code>count</code> outside its own scope.</p>
+
+<p>The following articles are great to know about Pure Functions in JavaScript -</p>
+
+<p><a href="https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-pure-function-d1c076bec976"><strong>Master the JavaScript Interview: What is a Pure Function? - By Eric Elliot</strong></a></p>
+
+<p><a href="https://staltz.com/is-your-javascript-function-actually-pure.html"><strong>Is your JavaScript Function actually Pure? - By André Staltz</strong></a></p>
+
+<p><a name="three-principles"></a></p>
+
+<h1 id="4-three-principles-of-redux">4. Three Principles of Redux</h1>
+
+<p>The part below will sound a little confusing</p>
+
+<p>The 3 basic principles of Redux are -</p>
+
+<p><a name="single-source"></a></p>
+
+<h2 id="1-single-source-of-truth">1. Single Source of Truth</h2>
+
+<p>The state of the whole application is stored in a big JavaScript Object.</p>
+
+<p><img src="/images/demystifying-redux/single-source-of-truth.png" alt="Single Source of Truth" /></p>
+
+<p><a name="read-only-state"></a></p>
+
+<h2 id="2-state-is-read-only">2. State is Read Only</h2>
+
+<p>State cannot be changed or modified.</p>
+
+<p>The only way to change state is to emit an action, an object describing what happened.</p>
+
+<p><a name="changes-with-pure-functions-only"></a></p>
+
+<h2 id="3-changes-are-made-with-pure-functions-only">3. Changes are made with pure functions only</h2>
+
+<p>Changes are made with pure functions only known as Reducers.</p>
+
+<p><a name="examples"></a></p>
+
+<h1 id="5-examples">5. Examples</h1>
+
+    </div>
+
+    <footer>
+        <ul class="stats">
+    
+        
+
+        
+        
+            <li>
+                
+                
+                    
+
+                    
+
+                    
+                        <i class="fa fa-folder-open-o">&nbsp;</i>
+                    
+
+                    
+                        Categories
+                    
+                
+            </li>
+        
+    
+
+    
+    
+        <li><a href='/javascript/categoriesredux'>redux</a></li>
+    
+        <li><a href='/javascript/categorieslearn-redux'>learn redux</a></li>
+    
+        <li><a href='/javascript/categoriespure-redux'>pure redux</a></li>
+    
+        <li><a href='/javascript/categorieslearn-pure-redux'>learn pure redux</a></li>
+    
+        <li><a href='/javascript/categoriesvanilla-redux'>vanilla redux</a></li>
+    
+        <li><a href='/javascript/categoriesredux-js'>redux js</a></li>
+    
+        <li><a href='/javascript/categoriesredux-2015'>redux 2015</a></li>
+    
+        <li><a href='/javascript/categoriesredux-2016'>redux 2016</a></li>
+    
+        <li><a href='/javascript/categoriesredux-2017'>redux 2017</a></li>
+    
+        <li><a href='/javascript/categoriesredux-definition'>redux definition</a></li>
+    
+        <li><a href='/javascript/categoriesreact-redux-example'>react redux example</a></li>
+    
+        <li><a href='/javascript/categoriesredux-react-tutorial'>redux react tutorial</a></li>
+    
+        <li><a href='/javascript/categoriesreact-redux-tutorial-2016'>react redux tutorial 2016</a></li>
+    
+        <li><a href='/javascript/categorieswhat-is-redux-js'>what is redux js</a></li>
+    
+        <li><a href='/javascript/categoriesredux-tutorial-for-beginners'>redux tutorial for beginners</a></li>
+    
+        <li><a href='/javascript/categoriesproper-use-of-redux'>proper use of redux</a></li>
+    
+        <li><a href='/javascript/categoriesredux-usage-examples'>redux usage examples</a></li>
+    
+        <li><a href='/javascript/categoriesreact-redux-tutorial-2017'>react redux tutorial 2017</a></li>
+    
+</ul>
+
+    </footer>
+</article>
+<ul class="actions pagination">
+    
+        <li><a href="https://theunknown0904.github.io/javascript/post/learn-javascript-step-by-step-from-beginner-to-intermediate-to-advanced/"
+                class="button big previous">learn javascript step by step from beginner to intermediate to advanced</a></li>
+    
+
+    
+</ul>
+
+
+
+    
+        <article class="post">
+            <div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'theunknown-github-io';
+    var disqus_identifier = 'https:\/\/theunknown0904.github.io\/javascript\/post\/demystifying-redux\/';
+    var disqus_title = 'demystifying redux';
+    var disqus_url = 'https:\/\/theunknown0904.github.io\/javascript\/post\/demystifying-redux\/';
+
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+        </article>
+    
+
+
+    </div>
+    
+<section id="sidebar" style="margin-left: 20px;">
+
+    
+        <section id="intro">
+            
+            
+                
+                    <img src="/images/dexter.jpg" width="100%" alt="The Unknown" />
+                
+            
+            
+                <header>
+                    <h2></h2>
+                    <p>JavaScript Lover 😘 NodeJS as GF 😜 React & ReactNative Spouse 😍 Blogger by Day 😌 Coder by Night 😋</p>
+                </header>
+            
+            <ul class="icons">
+                
+                
+                    
+<li><a href="//github.com/theunknown0904" target="_blank" title="GitHub" class="fa fa-github"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li><a href="//facebook.com/profile.php?id=100018698471488" target="_blank" title="Facebook" class="fa fa-facebook"></a></li>
+
+
+
+<li><a href="//twitter.com/theunknown0904" target="_blank" title="Twitter" class="fa fa-twitter"></a></li>
+
+
+
+
+                
+            </ul>
+        </section>
+
+    
+        <section id="recent-posts">
+            <ul class="posts">
+                <header>
+                    <h3>Recent Posts</h3>
+                </header>
+                
+                    
+                
+
+                
+                    
+                
+
+                
+                    <li>
+                        <article>
+                            <header>
+                                <h3><a href="https://theunknown0904.github.io/javascript/post/demystifying-redux/">demystifying redux</a></h3>
+                                
+                                    
+                                
+                                <time class="published" datetime=
+                                    '2017-06-30'>
+                                    June 30, 2017</time>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <h3><a href="https://theunknown0904.github.io/javascript/post/learn-javascript-step-by-step-from-beginner-to-intermediate-to-advanced/">learn javascript step by step from beginner to intermediate to advanced</a></h3>
+                                
+                                    
+                                
+                                <time class="published" datetime=
+                                    '2017-06-29'>
+                                    June 29, 2017</time>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <h3><a href="https://theunknown0904.github.io/javascript/post/">Posts</a></h3>
+                                
+                                    
+                                
+                                <time class="published" datetime=
+                                    '2017-06-30'>
+                                    June 30, 2017</time>
+                            </header>
+                        </article>
+                    </li>
+                
+
+                
+                    <li>
+                        <ul class="actions">
+                            <li><a href=
+                            
+                                /blog/
+                            
+                            class="button">View more posts</a></li>
+                        </ul>
+                    </li>
+                
+            </ul>
+        </section>
+
+    
+    
+    
+    
+        <section id="categories">
+            <ul class="posts">
+                <header>
+                    <h3><a href="/categories/">Categories</a></h3>
+                </header>
+
+                
+                    
+                
+
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/javascript/">javascript</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/javascript-advanced/">javascript advanced</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/javascript-beginner/">javascript beginner</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/javascript-download/">javascript download</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/javascript-ebook/">javascript ebook</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/javascript-examples/">javascript examples</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/javascript-free-ebook/">javascript free ebook</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/javascript-free-pdf/">javascript free pdf</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/javascript-intermediate/">javascript intermediate</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/javascript-interview-questions-and-answers/">javascript interview questions and answers</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/javascript-pdf/">javascript pdf</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/javascript-step-by-step/">javascript step by step</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/javascript-syntax/">javascript syntax</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/javascript-tutorial/">javascript tutorial</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/javascript-tutorial-for-beginners/">javascript tutorial for beginners</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/javascript-tutorial-pdf/">javascript tutorial pdf</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/javascript-tutorial-with-examples/">javascript tutorial with examples</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/javascript-tutorials/">javascript tutorials</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/javascript-tuts/">javascript tuts</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/js/">js</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/js-advanced/">js advanced</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/js-beginner/">js beginner</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/js-download/">js download</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/js-ebook/">js ebook</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/js-examples/">js examples</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/js-free-ebook/">js free ebook</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/js-free-pdf/">js free pdf</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/js-intermediate/">js intermediate</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/js-interview-questions-and-answers/">js interview questions and answers</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/js-pdf/">js pdf</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/js-step-by-step/">js step by step</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/js-syntax/">js syntax</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/js-tutorial/">js tutorial</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/js-tutorial-for-beginners/">js tutorial for beginners</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/js-tutorial-pdf/">js tutorial pdf</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/js-tutorial-with-examples/">js tutorial with examples</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/js-tutorials/">js tutorials</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/js-tuts/">js tuts</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/learn-pure-redux/">learn pure redux</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/learn-redux/">learn redux</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/proper-use-of-redux/">proper use of redux</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/pure-redux/">pure redux</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/react-redux-example/">react redux example</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/react-redux-tutorial-2016/">react redux tutorial 2016</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/react-redux-tutorial-2017/">react redux tutorial 2017</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/redux/">redux</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/redux-2015/">redux 2015</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/redux-2016/">redux 2016</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/redux-2017/">redux 2017</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/redux-definition/">redux definition</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/redux-js/">redux js</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/redux-react-tutorial/">redux react tutorial</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/redux-tutorial-for-beginners/">redux tutorial for beginners</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/redux-usage-examples/">redux usage examples</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/vanilla-redux/">vanilla redux</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/what-is-javascript/">what is javascript</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/what-is-js/">what is js</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/what-is-redux-js/">what is redux js</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+            </ul>
+        </section>
+    
+
+    
+        
+
+    
+        <section id="footer">
+            <ul class="icons">
+                
+                
+                    
+<li><a href="//github.com/theunknown0904" target="_blank" title="GitHub" class="fa fa-github"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li><a href="//facebook.com/profile.php?id=100018698471488" target="_blank" title="Facebook" class="fa fa-facebook"></a></li>
+
+
+
+<li><a href="//twitter.com/theunknown0904" target="_blank" title="Twitter" class="fa fa-twitter"></a></li>
+
+
+
+
+                
+            </ul>
+
+            <p class="copyright">&copy; The Unknown - JavaScript Lover 😘 NodeJS as GF 😜 React &amp; ReactNative Spouse 😍 Blogger by Day 😌 Coder by Night 😋. Design: <a href="https://html5up.net" target="_blank">HTML5 UP</a>. Ported by <a href="//github.com/jpescador" target="_blank">Julio Pescador</a>. Powered by <a href="//gohugo.io" target="_blank">Hugo</a></p>
+        </section>
+
+</section>
+
+            </div>
+        <a id="back-to-top" href="#" class="fa fa-arrow-up fa-border fa-2x"></a>
+        
+
+        
+        
+            
+        
+
+        
+        
+            <script src="/js/jquery.min.js"></script>
+            <script src="/js/skel.min.js"></script>
+            <script src="/js/util.js"></script>
+            <script src="/js/main.js"></script>
+            <script src="/js/backToTop.js"></script>
+            <script src="/js/highlight.pack.js"></script>
+        
+
+        
+
+            
+            <script>hljs.initHighlightingOnLoad();</script>
+            
+             <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5969e3ab93481436"></script> 
+    </body>
+</html>
+

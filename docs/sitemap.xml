@@ -1,15 +1,380 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://replace-this-with-your-hugo-site.com/</loc>
+    <loc>https://theunknown0904.github.io/javascript/post/demystifying-redux/</loc>
+    <lastmod>2017-06-30T11:10:56+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://theunknown0904.github.io/javascript/post/learn-javascript-step-by-step-from-beginner-to-intermediate-to-advanced/</loc>
+    <lastmod>2017-06-29T21:39:19+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://theunknown0904.github.io/javascript/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://theunknown0904.github.io/javascript/categories/javascript/</loc>
     <lastmod>2017-06-29T21:39:19+05:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://replace-this-with-your-hugo-site.com/post/learn-javascript-step-by-step-from-beginner-to-intermediate-to-advanced/</loc>
+    <loc>https://theunknown0904.github.io/javascript/categories/javascript-advanced/</loc>
     <lastmod>2017-06-29T21:39:19+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://theunknown0904.github.io/javascript/categories/javascript-beginner/</loc>
+    <lastmod>2017-06-29T21:39:19+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://theunknown0904.github.io/javascript/categories/javascript-download/</loc>
+    <lastmod>2017-06-29T21:39:19+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://theunknown0904.github.io/javascript/categories/javascript-ebook/</loc>
+    <lastmod>2017-06-29T21:39:19+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://theunknown0904.github.io/javascript/categories/javascript-examples/</loc>
+    <lastmod>2017-06-29T21:39:19+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://theunknown0904.github.io/javascript/categories/javascript-free-ebook/</loc>
+    <lastmod>2017-06-29T21:39:19+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://theunknown0904.github.io/javascript/categories/javascript-free-pdf/</loc>
+    <lastmod>2017-06-29T21:39:19+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://theunknown0904.github.io/javascript/categories/javascript-intermediate/</loc>
+    <lastmod>2017-06-29T21:39:19+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://theunknown0904.github.io/javascript/categories/javascript-interview-questions-and-answers/</loc>
+    <lastmod>2017-06-29T21:39:19+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://theunknown0904.github.io/javascript/categories/javascript-pdf/</loc>
+    <lastmod>2017-06-29T21:39:19+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://theunknown0904.github.io/javascript/categories/javascript-step-by-step/</loc>
+    <lastmod>2017-06-29T21:39:19+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://theunknown0904.github.io/javascript/categories/javascript-syntax/</loc>
+    <lastmod>2017-06-29T21:39:19+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://theunknown0904.github.io/javascript/categories/javascript-tutorial/</loc>
+    <lastmod>2017-06-29T21:39:19+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://theunknown0904.github.io/javascript/categories/javascript-tutorial-for-beginners/</loc>
+    <lastmod>2017-06-29T21:39:19+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://theunknown0904.github.io/javascript/categories/javascript-tutorial-pdf/</loc>
+    <lastmod>2017-06-29T21:39:19+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://theunknown0904.github.io/javascript/categories/javascript-tutorial-with-examples/</loc>
+    <lastmod>2017-06-29T21:39:19+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://theunknown0904.github.io/javascript/categories/javascript-tutorials/</loc>
+    <lastmod>2017-06-29T21:39:19+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://theunknown0904.github.io/javascript/categories/javascript-tuts/</loc>
+    <lastmod>2017-06-29T21:39:19+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://theunknown0904.github.io/javascript/categories/js/</loc>
+    <lastmod>2017-06-29T21:39:19+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://theunknown0904.github.io/javascript/categories/js-advanced/</loc>
+    <lastmod>2017-06-29T21:39:19+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://theunknown0904.github.io/javascript/categories/js-beginner/</loc>
+    <lastmod>2017-06-29T21:39:19+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://theunknown0904.github.io/javascript/categories/js-download/</loc>
+    <lastmod>2017-06-29T21:39:19+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://theunknown0904.github.io/javascript/categories/js-ebook/</loc>
+    <lastmod>2017-06-29T21:39:19+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://theunknown0904.github.io/javascript/categories/js-examples/</loc>
+    <lastmod>2017-06-29T21:39:19+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://theunknown0904.github.io/javascript/categories/js-free-ebook/</loc>
+    <lastmod>2017-06-29T21:39:19+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://theunknown0904.github.io/javascript/categories/js-free-pdf/</loc>
+    <lastmod>2017-06-29T21:39:19+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://theunknown0904.github.io/javascript/categories/js-intermediate/</loc>
+    <lastmod>2017-06-29T21:39:19+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://theunknown0904.github.io/javascript/categories/js-interview-questions-and-answers/</loc>
+    <lastmod>2017-06-29T21:39:19+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://theunknown0904.github.io/javascript/categories/js-pdf/</loc>
+    <lastmod>2017-06-29T21:39:19+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://theunknown0904.github.io/javascript/categories/js-step-by-step/</loc>
+    <lastmod>2017-06-29T21:39:19+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://theunknown0904.github.io/javascript/categories/js-syntax/</loc>
+    <lastmod>2017-06-29T21:39:19+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://theunknown0904.github.io/javascript/categories/js-tutorial/</loc>
+    <lastmod>2017-06-29T21:39:19+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://theunknown0904.github.io/javascript/categories/js-tutorial-for-beginners/</loc>
+    <lastmod>2017-06-29T21:39:19+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://theunknown0904.github.io/javascript/categories/js-tutorial-pdf/</loc>
+    <lastmod>2017-06-29T21:39:19+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://theunknown0904.github.io/javascript/categories/js-tutorial-with-examples/</loc>
+    <lastmod>2017-06-29T21:39:19+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://theunknown0904.github.io/javascript/categories/js-tutorials/</loc>
+    <lastmod>2017-06-29T21:39:19+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://theunknown0904.github.io/javascript/categories/js-tuts/</loc>
+    <lastmod>2017-06-29T21:39:19+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://theunknown0904.github.io/javascript/categories/learn-pure-redux/</loc>
+    <lastmod>2017-06-30T11:10:56+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://theunknown0904.github.io/javascript/categories/learn-redux/</loc>
+    <lastmod>2017-06-30T11:10:56+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://theunknown0904.github.io/javascript/post/</loc>
+    <lastmod>2017-06-30T11:10:56+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://theunknown0904.github.io/javascript/categories/proper-use-of-redux/</loc>
+    <lastmod>2017-06-30T11:10:56+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://theunknown0904.github.io/javascript/categories/pure-redux/</loc>
+    <lastmod>2017-06-30T11:10:56+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://theunknown0904.github.io/javascript/categories/react-redux-example/</loc>
+    <lastmod>2017-06-30T11:10:56+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://theunknown0904.github.io/javascript/categories/react-redux-tutorial-2016/</loc>
+    <lastmod>2017-06-30T11:10:56+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://theunknown0904.github.io/javascript/categories/react-redux-tutorial-2017/</loc>
+    <lastmod>2017-06-30T11:10:56+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://theunknown0904.github.io/javascript/categories/redux/</loc>
+    <lastmod>2017-06-30T11:10:56+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://theunknown0904.github.io/javascript/categories/redux-2015/</loc>
+    <lastmod>2017-06-30T11:10:56+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://theunknown0904.github.io/javascript/categories/redux-2016/</loc>
+    <lastmod>2017-06-30T11:10:56+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://theunknown0904.github.io/javascript/categories/redux-2017/</loc>
+    <lastmod>2017-06-30T11:10:56+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://theunknown0904.github.io/javascript/categories/redux-definition/</loc>
+    <lastmod>2017-06-30T11:10:56+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://theunknown0904.github.io/javascript/categories/redux-js/</loc>
+    <lastmod>2017-06-30T11:10:56+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://theunknown0904.github.io/javascript/categories/redux-react-tutorial/</loc>
+    <lastmod>2017-06-30T11:10:56+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://theunknown0904.github.io/javascript/categories/redux-tutorial-for-beginners/</loc>
+    <lastmod>2017-06-30T11:10:56+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://theunknown0904.github.io/javascript/categories/redux-usage-examples/</loc>
+    <lastmod>2017-06-30T11:10:56+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://theunknown0904.github.io/javascript/</loc>
+    <lastmod>2017-06-30T11:10:56+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://theunknown0904.github.io/javascript/categories/vanilla-redux/</loc>
+    <lastmod>2017-06-30T11:10:56+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://theunknown0904.github.io/javascript/categories/what-is-javascript/</loc>
+    <lastmod>2017-06-29T21:39:19+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://theunknown0904.github.io/javascript/categories/what-is-js/</loc>
+    <lastmod>2017-06-29T21:39:19+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://theunknown0904.github.io/javascript/categories/what-is-redux-js/</loc>
+    <lastmod>2017-06-30T11:10:56+05:30</lastmod>
+    <priority>0</priority>
   </url>
   
 </urlset>

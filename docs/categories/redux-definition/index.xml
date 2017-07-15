@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Redux definition on The Unknown - JavaScript Lover 😘 NodeJS as GF 😜 React &amp; ReactNative Spouse 😍 Blogger by Day 😌 Coder by Night 😋</title>
+    <link>https://theunknown0904.github.io/javascript/categories/redux-definition/</link>
+    <description>Recent content in Redux definition on The Unknown - JavaScript Lover 😘 NodeJS as GF 😜 React &amp; ReactNative Spouse 😍 Blogger by Day 😌 Coder by Night 😋</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 30 Jun 2017 11:10:56 +0530</lastBuildDate>
+    
+	<atom:link href="https://theunknown0904.github.io/javascript/categories/redux-definition/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>demystifying redux</title>
+      <link>https://theunknown0904.github.io/javascript/post/demystifying-redux/</link>
+      <pubDate>Fri, 30 Jun 2017 11:10:56 +0530</pubDate>
+      
+      <guid>https://theunknown0904.github.io/javascript/post/demystifying-redux/</guid>
+      <description>Introduction Redux can be complicated at first.
+But after you understand the basics it can be very easy.
+This article will ensure that you understand Redux with the help of some examples.
+After reading this article I promise you, you will say this -
+This article will make you fall in love ❤️ with Redux.
+According to the official site, Redux is a predictable state container for JavaScript Applications.</description>
+    </item>
+    
+  </channel>
+</rss>
