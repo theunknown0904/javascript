@@ -1,0 +1,1046 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Js tutorials on The Unknown Rabbit - JavaScript, React &amp; React Native</title>
+    <link>http://replace-this-with-your-hugo-site.com/categories/js-tutorials/</link>
+    <description>Recent content in Js tutorials on The Unknown Rabbit - JavaScript, React &amp; React Native</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 29 Jun 2017 21:39:19 +0530</lastBuildDate>
+    <atom:link href="http://replace-this-with-your-hugo-site.com/categories/js-tutorials/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>learn javascript step by step from beginner to intermediate to advanced</title>
+      <link>http://replace-this-with-your-hugo-site.com/post/learn-javascript-step-by-step-from-beginner-to-intermediate-to-advanced/</link>
+      <pubDate>Thu, 29 Jun 2017 21:39:19 +0530</pubDate>
+      
+      <guid>http://replace-this-with-your-hugo-site.com/post/learn-javascript-step-by-step-from-beginner-to-intermediate-to-advanced/</guid>
+      <description>
+
+&lt;p&gt;&lt;img src=&#34;http://imgur.com/4WqZdpr.png&#34; alt=&#34;So why is JavaScript so good&#34; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;introduction:e05609db6fa180fe6a887d342df1b7db&#34;&gt;Introduction&lt;/h1&gt;
+
+&lt;p&gt;This is the most comprehensive guide on Javascript.&lt;/p&gt;
+
+&lt;p&gt;This is not a complete guide as there are 1000 things in Javascript like Type Coercion which are not used 95% of the time.&lt;/p&gt;
+
+&lt;p&gt;So this guide covers everything you need to know about Javascript to write 95% of your code.&lt;/p&gt;
+
+&lt;h1 id=&#34;table-of-contents:e05609db6fa180fe6a887d342df1b7db&#34;&gt;Table of Contents&lt;/h1&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;#what-is-javascript?&#34;&gt;What is JavaScript&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#executing-javaScript-in-browser&#34;&gt;Executing JavaScript in Browser&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#beginner-level&#34;&gt;Beginner Level&lt;/a&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;#numbers&#34;&gt;Numbers&lt;/a&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;#data-types&#34;&gt;Data Types&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#integers&#34;&gt;Integers&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#floating-point&#34;&gt;Floating Point&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#basic-arithmetic&#34;&gt;Basic Arithmetic&lt;/a&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;#addition&#34;&gt;Addition&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#subtraction&#34;&gt;Subtraction&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#multiplication&#34;&gt;Multiplication&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#division&#34;&gt;Division&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#modulus&#34;&gt;Modulus&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;order-of-operations&#34;&gt;Order of Operations&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#comparators&#34;&gt;Comparators&lt;/a&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;#equal-to&#34;&gt;Equal To&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#not-equal-to&#34;&gt;Not Equal To&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#less-than&#34;&gt;Less than&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#greater-than&#34;&gt;Greater than&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#less-than-or-equal-to&#34;&gt;Less than or Equal To&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#greater-than-or-equal-to&#34;&gt;Greater than or Equal To&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#strict-equal&#34;&gt;Strict Equal&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#strict-not-equal&#34;&gt;Strict Not Equal&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#comments&#34;&gt;Comments&lt;/a&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;#single-line-comment&#34;&gt;Single Line Comment&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#multi-line-comment&#34;&gt;Multi Line Comment&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#short-hand-operator&#34;&gt;Short Hand Operator&lt;/a&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;#add&#34;&gt;Add&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#sub&#34;&gt;Subtract&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#multiply&#34;&gt;Multiply&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#divide&#34;&gt;Divide&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#mod&#34;&gt;Modulus&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#pre-increment&#34;&gt;Pre-Increment&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#pre-decrement&#34;&gt;Pre-Decrement&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#post-increment&#34;&gt;Post-Increment&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#post-decrement&#34;&gt;Post-Decrement&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#intermediate-level&#34;&gt;Intermediate Level&lt;/a&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;#If-Else&#34;&gt;If&amp;hellip;Else&lt;/a&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;#if-else&#34;&gt;if&amp;hellip;else&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#ternary-operator&#34;&gt;ternary operator&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#do-while&#34;&gt;do&amp;hellip;while&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#while&#34;&gt;while&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#for-loop&#34;&gt;for-loop&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#switch-case&#34;&gt;switch&amp;hellip;case&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#binary-and&#34;&gt;binary and&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#binary-or&#34;&gt;binary or&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#functions&#34;&gt;functions&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#array&#34;&gt;array&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#advanced-level&#34;&gt;Advanced Level&lt;/a&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;#iife&#34;&gt;Immediately Invoked Function Expression (IIFE)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#closure&#34;&gt;Closure&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#hoisting&#34;&gt;Hoisting&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#objects&#34;&gt;Objects&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#this&#34;&gt;this keyword&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;a name=&#34;what-is-javascript?&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;1-what-is-javascript:e05609db6fa180fe6a887d342df1b7db&#34;&gt;1. What is JavaScript ?&lt;/h1&gt;
+
+&lt;p&gt;According to Mozilla Developer Network,&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;JavaScript is a programming language that allows you to implement complex things on web pages — every time a web page does more than just sit there and display static information for you to look at — displaying timely content updates, or interactive maps, or animated 2D/3D graphics, or scrolling video jukeboxes, etc. — you can bet that JavaScript is probably involved. It is the third layer of the layer cake of standard web technologies, two of which are HTML and CSS.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Simply, JavaScript is nothing but anything that interacts with the user.&lt;/p&gt;
+
+&lt;p&gt;For example, clicking a button shows a pop-up ad then that is JavaScript.&lt;/p&gt;
+
+&lt;p&gt;Beware, if someone hovers over a button &amp;amp; background color changes then that can be done in both CSS as well as JavaScript.&lt;/p&gt;
+
+&lt;p&gt;But, generally CSS is mainly used to provide look &amp;amp; feel of the website &amp;amp; Javascript for the interaction.&lt;/p&gt;
+
+&lt;p&gt;&lt;a name=&#34;executing-javaScript-in-browser&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;2-executing-javascript-in-browser:e05609db6fa180fe6a887d342df1b7db&#34;&gt;2. Executing JavaScript in Browser&lt;/h1&gt;
+
+&lt;p&gt;To run JavaScript open up &lt;code&gt;Google Chrome&lt;/code&gt; or your preferred Web Browser &amp;amp; open &lt;code&gt;Developer Tools&lt;/code&gt; then select &lt;code&gt;Console&lt;/code&gt; Tab.&lt;/p&gt;
+
+&lt;p&gt;Shortcut key for Google Chrome is &lt;code&gt;F12&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Then you should see something like the following -&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://imgur.com/0y9VVZN.png&#34; alt=&#34;Chrome Developer Tools&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a name=&#34;beginner-level&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;3-beginner-level:e05609db6fa180fe6a887d342df1b7db&#34;&gt;3. Beginner Level&lt;/h1&gt;
+
+&lt;p&gt;&lt;a name=&#34;data-types&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;3-1-data-types:e05609db6fa180fe6a887d342df1b7db&#34;&gt;3.1. Data Types&lt;/h2&gt;
+
+&lt;p&gt;Data Types are used to store a particular type of data. The data can be a number, a string or any complex data.&lt;/p&gt;
+
+&lt;p&gt;JavaScript has mainly 6 Data Types - object, number, string, boolean, null, &amp;amp; undefined.&lt;/p&gt;
+
+&lt;p&gt;JavaScript has Variables.&lt;/p&gt;
+
+&lt;p&gt;Variables can be thought of as named containers. You can place data into these containers and then refer to the data simply by naming the container.&lt;/p&gt;
+
+&lt;p&gt;Example -&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;var appleColor = &amp;quot;red&amp;quot;;
+var age = 18;
+// now you can refer `appleColor` &amp;amp; `age`
+console.log(appleColor, age); // prints red 18
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;code&gt;typeof&lt;/code&gt; gives the data type of the variable.&lt;/p&gt;
+
+&lt;p&gt;Examples -&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;typeof 12 //number
+typeof false //boolean
+typeof &amp;quot;HELLO WORLD&amp;quot; //string
+typeof null //object
+typeof undefined //undefined
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;a name=&#34;object&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;3-1-1-object:e05609db6fa180fe6a887d342df1b7db&#34;&gt;3.1.1. Object&lt;/h3&gt;
+
+&lt;p&gt;Object is represented as follows -&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;var john = {
+	name: &amp;quot;John&amp;quot;,
+	age: 40,
+	hello: function() {
+		return &amp;quot;Hello &amp;quot; + this.name;
+	}
+};
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Array is a special type of Object represented as follows -&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;var arr = [1,2,3,4];
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Also, Functions is a special type of Object represented as follows -&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;var hello = function() {
+	return &amp;quot;Hello&amp;quot;;
+};
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;a name=&#34;numbers&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;3-2-numbers:e05609db6fa180fe6a887d342df1b7db&#34;&gt;3.2. Numbers&lt;/h2&gt;
+
+&lt;p&gt;JavaScript has integers as well as floating point numbers.&lt;/p&gt;
+
+&lt;p&gt;&lt;a name=&#34;integers&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;3-2-1-integers:e05609db6fa180fe6a887d342df1b7db&#34;&gt;3.2.1. Integers&lt;/h3&gt;
+
+&lt;p&gt;Integers are the numbers without decimal point.&lt;/p&gt;
+
+&lt;p&gt;Example - 1, 12, 20, 134, etc.&lt;/p&gt;
+
+&lt;p&gt;&lt;a name=&#34;floating-point&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;3-2-2-floating-point:e05609db6fa180fe6a887d342df1b7db&#34;&gt;3.2.2 Floating Point&lt;/h3&gt;
+
+&lt;p&gt;Floating point numbers are the numbers containing decimal point.&lt;/p&gt;
+
+&lt;p&gt;Floating point numbers are approximated.&lt;/p&gt;
+
+&lt;p&gt;Example - 3.1, 12.2, 2.01, 1.34, etc.&lt;/p&gt;
+
+&lt;p&gt;&lt;a name=&#34;basic-arithmetic&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;3-3-basic-arithmetic:e05609db6fa180fe6a887d342df1b7db&#34;&gt;3.3. Basic Arithmetic&lt;/h2&gt;
+
+&lt;p&gt;JavaScript can perform basic math operations like Addition, Subtraction, Multiplication, Division &amp;amp; Modulus.&lt;/p&gt;
+
+&lt;p&gt;&lt;a name=&#34;addition&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;3-3-1-addition:e05609db6fa180fe6a887d342df1b7db&#34;&gt;3.3.1. Addition&lt;/h3&gt;
+
+&lt;p&gt;(1) &lt;code&gt;12 + 13 = 25&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;(2) &lt;code&gt;2 + 3.5 = 5.5&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;(3) &lt;code&gt;2.5 + 3.5 = 6&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a name=&#34;subtraction&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;3-3-2-subtraction:e05609db6fa180fe6a887d342df1b7db&#34;&gt;3.3.2. Subtraction&lt;/h3&gt;
+
+&lt;p&gt;(1) &lt;code&gt;17 - 13 = 4&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;(2) &lt;code&gt;17.5 - 4 = 13.5&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;(3) &lt;code&gt;17.3 - 13.1 = 4.200000000000001&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a name=&#34;multiplication&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;3-3-3-multiplication:e05609db6fa180fe6a887d342df1b7db&#34;&gt;3.3.3. Multiplication&lt;/h3&gt;
+
+&lt;p&gt;(1) &lt;code&gt;4 * 12 = 48&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;(2) &lt;code&gt;4 * 6.7 = 26.8&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;(3) &lt;code&gt;4.3 * 6.7 = 28.81&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a name=&#34;division&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;3-3-4-division:e05609db6fa180fe6a887d342df1b7db&#34;&gt;3.3.4. Division&lt;/h3&gt;
+
+&lt;p&gt;(1) &lt;code&gt;12 / 4 = 3&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;(2) &lt;code&gt;9.4 / 4 = 2.35&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;(3) &lt;code&gt;1.4 / 3.4 = 0.4117647058823529&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a name=&#34;modulus&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;3-3-5-modulus:e05609db6fa180fe6a887d342df1b7db&#34;&gt;3.3.5. Modulus&lt;/h3&gt;
+
+&lt;p&gt;(1) &lt;code&gt;11 % 3 = 2&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;(2) &lt;code&gt;11.3 % 4 = 3.3000000000000007&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;(3) &lt;code&gt;16.78 % 4.5 = 3.280000000000001&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a name=&#34;order-of-operations&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;3-3-order-of-operations:e05609db6fa180fe6a887d342df1b7db&#34;&gt;3.3. Order of Operations&lt;/h2&gt;
+
+&lt;p&gt;The Order of Operations in JavaScript is same as that taught in school, i.e, BODMAS&lt;/p&gt;
+
+&lt;p&gt;Incase you don&amp;rsquo;t know the abbreviation, BODMAS means Bracket Of Division Multiplication Addition Subtraction&lt;/p&gt;
+
+&lt;p&gt;First comes Bracket, i.e, Parentheses have higher precedence then Division &amp;amp; Multiplication have same precedence, i.e, whichever comes first from left to right
+then Addition &amp;amp; Subtraction have same precedence, i.e, whichever comes first from left to right&lt;/p&gt;
+
+&lt;p&gt;Example -&lt;/p&gt;
+
+&lt;p&gt;(1) &lt;code&gt;(3 / 2) * 4 = 6&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;(2) &lt;code&gt;3 / (2 * 4) = 0.375&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;(3) &lt;code&gt;3 / 2 * 4 = 6&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;(4) &lt;code&gt;3 * 2 / 4 = 1.5&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;(5) &lt;code&gt;3 + 2 - 1 = 4&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;(6) &lt;code&gt;3 - 1 + 2 = 4&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;(7) &lt;code&gt;(6 + 7) * 5 / 6 + 3 - 2 * 5 / 3 = 10.5&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;(8) &lt;code&gt;2 + (6 % (2 + 1)) = 2&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;(9) &lt;code&gt;(-8 * 16) - 9 * -3 = -101&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a name=&#34;comparators&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;3-4-comparators:e05609db6fa180fe6a887d342df1b7db&#34;&gt;3.4. Comparators&lt;/h2&gt;
+
+&lt;p&gt;&lt;a name=&#34;equal-to&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;3-4-1-equal-to:e05609db6fa180fe6a887d342df1b7db&#34;&gt;3.4.1. Equal To&lt;/h3&gt;
+
+&lt;p&gt;(1) &lt;code&gt;4 == 2&lt;/code&gt; returns &lt;code&gt;false&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;(2) &lt;code&gt;2 == 2&lt;/code&gt; returns &lt;code&gt;true&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;(3) &lt;code&gt;&#39;2&#39; == 2&lt;/code&gt; returns &lt;code&gt;true&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a name=&#34;not-equal-to&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;3-4-2-not-equal-to:e05609db6fa180fe6a887d342df1b7db&#34;&gt;3.4.2. Not Equal To&lt;/h3&gt;
+
+&lt;p&gt;(1) &lt;code&gt;4 != 2&lt;/code&gt; returns &lt;code&gt;true&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;(2) &lt;code&gt;2 != 2&lt;/code&gt; returns &lt;code&gt;false&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;(3) &lt;code&gt;&#39;2&#39; != 2&lt;/code&gt; returns &lt;code&gt;false&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a name=&#34;less-than&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;3-4-3-less-than:e05609db6fa180fe6a887d342df1b7db&#34;&gt;3.4.3. Less than&lt;/h3&gt;
+
+&lt;p&gt;(1) &lt;code&gt;4 &amp;lt; 2&lt;/code&gt; returns &lt;code&gt;false&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;(2) &lt;code&gt;2 &amp;lt; 3&lt;/code&gt; returns &lt;code&gt;true&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;(3) &lt;code&gt;&#39;2&#39; &amp;lt; 3&lt;/code&gt; returns &lt;code&gt;true&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a name=&#34;greater-than&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;3-4-4-greater-than:e05609db6fa180fe6a887d342df1b7db&#34;&gt;3.4.4. Greater than&lt;/h3&gt;
+
+&lt;p&gt;(1) &lt;code&gt;4 &amp;gt; 2&lt;/code&gt; returns &lt;code&gt;true&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;(2) &lt;code&gt;2 &amp;gt; 3&lt;/code&gt; returns &lt;code&gt;false&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;(3) &lt;code&gt;&#39;2&#39; &amp;gt; 3&lt;/code&gt; returns &lt;code&gt;false&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a name=&#34;less-than-or-equal-to&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;3-4-5-less-than-or-equal-to:e05609db6fa180fe6a887d342df1b7db&#34;&gt;3.4.5. Less than or Equal To&lt;/h3&gt;
+
+&lt;p&gt;(1) &lt;code&gt;4 &amp;lt;= 2&lt;/code&gt; returns &lt;code&gt;false&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;(2) &lt;code&gt;2 &amp;lt;= 3&lt;/code&gt; returns &lt;code&gt;true&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;(3) &lt;code&gt;&#39;2&#39; &amp;lt;= 3&lt;/code&gt; returns &lt;code&gt;true&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a name=&#34;greater-than-or-equal-to&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;3-4-6-greater-than-or-equal-to:e05609db6fa180fe6a887d342df1b7db&#34;&gt;3.4.6. Greater than or Equal To&lt;/h3&gt;
+
+&lt;p&gt;(1) &lt;code&gt;4 &amp;gt;= 2&lt;/code&gt; returns &lt;code&gt;true&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;(2) &lt;code&gt;2 &amp;gt;= 3&lt;/code&gt; returns &lt;code&gt;false&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;(3) &lt;code&gt;&#39;2&#39; &amp;gt;= 3&lt;/code&gt; returns &lt;code&gt;false&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a name=&#34;strict-equal&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;3-4-7-strict-equal:e05609db6fa180fe6a887d342df1b7db&#34;&gt;3.4.7. Strict Equal&lt;/h3&gt;
+
+&lt;p&gt;(1) &lt;code&gt;4 === 2&lt;/code&gt; returns &lt;code&gt;false&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;(2) &lt;code&gt;2 === 2&lt;/code&gt; returns &lt;code&gt;true&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;(3) &lt;code&gt;&#39;2&#39; === 2&lt;/code&gt; returns &lt;code&gt;false&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a name=&#34;not-equal-to&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;3-4-8-not-equal-to:e05609db6fa180fe6a887d342df1b7db&#34;&gt;3.4.8. Not Equal To&lt;/h3&gt;
+
+&lt;p&gt;(1) &lt;code&gt;4 !== 2&lt;/code&gt; returns &lt;code&gt;true&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;(2) &lt;code&gt;2 !== 2&lt;/code&gt; returns &lt;code&gt;false&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;(3) &lt;code&gt;&#39;2&#39; !== 2&lt;/code&gt; returns &lt;code&gt;true&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a name=&#34;comments&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;3-5-comments:e05609db6fa180fe6a887d342df1b7db&#34;&gt;3.5. Comments&lt;/h2&gt;
+
+&lt;p&gt;&lt;a name=&#34;single-line-comment&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;3-5-1-single-line-comment:e05609db6fa180fe6a887d342df1b7db&#34;&gt;3.5.1. Single Line Comment&lt;/h3&gt;
+
+&lt;p&gt;Single Line Comments are displayed by &lt;code&gt;//&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Example -&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;// this is a single line comment&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a name=&#34;multi-line-comment&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;3-5-1-multi-line-comment:e05609db6fa180fe6a887d342df1b7db&#34;&gt;3.5.1. Multi Line Comment&lt;/h3&gt;
+
+&lt;p&gt;Multi Line Comments are displayed by putting comment between &lt;code&gt;/*&lt;/code&gt; &amp;amp; &lt;code&gt;*/&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Example -&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;/* 
+this is a multi line comment
+*/
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;a name=&#34;short-hand-operator&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;3-6-short-hand-operator:e05609db6fa180fe6a887d342df1b7db&#34;&gt;3.6. Short Hand Operator&lt;/h3&gt;
+
+&lt;p&gt;Short Hand Operators are used to reduce syntax.&lt;/p&gt;
+
+&lt;p&gt;&lt;a name=&#34;add&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;3-6-1-add:e05609db6fa180fe6a887d342df1b7db&#34;&gt;3.6.1. Add&lt;/h3&gt;
+
+&lt;p&gt;Represented by &lt;code&gt;+=&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Example -&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;var a = 1;
+a += 2; // 3
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;a name=&#34;sub&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;3-6-2-subtract:e05609db6fa180fe6a887d342df1b7db&#34;&gt;3.6.2. Subtract&lt;/h3&gt;
+
+&lt;p&gt;Represented by &lt;code&gt;-=&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Example -&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;var a = 3;
+a -= 2; // 1
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;a name=&#34;multiply&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;3-6-3-multiply:e05609db6fa180fe6a887d342df1b7db&#34;&gt;3.6.3. Multiply&lt;/h3&gt;
+
+&lt;p&gt;Represented by &lt;code&gt;*=&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Example -&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;var a = 3;
+a *= 2; // 6
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;a name=&#34;divide&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;3-6-4-divide:e05609db6fa180fe6a887d342df1b7db&#34;&gt;3.6.4. Divide&lt;/h3&gt;
+
+&lt;p&gt;Represented by &lt;code&gt;/=&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Example -&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;var a = 3;
+a /= 2; // 1.5
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;a name=&#34;mod&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;3-6-5-modulus:e05609db6fa180fe6a887d342df1b7db&#34;&gt;3.6.5. Modulus&lt;/h3&gt;
+
+&lt;p&gt;Represented by &lt;code&gt;%=&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Example -&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;var a = 3;
+a %= 2; // 1
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;a name=&#34;pre-increment&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;3-6-6-pre-increment:e05609db6fa180fe6a887d342df1b7db&#34;&gt;3.6.6. Pre-Increment&lt;/h3&gt;
+
+&lt;p&gt;Represented by &lt;code&gt;++a&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;It increments the variable first then returns the value&lt;/p&gt;
+
+&lt;p&gt;Example -&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;var a = 3;
+console.log(++a); // 4
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;a name=&#34;pre-decrement&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;3-6-7-pre-decrement:e05609db6fa180fe6a887d342df1b7db&#34;&gt;3.6.7. Pre-Decrement&lt;/h3&gt;
+
+&lt;p&gt;Represented by &lt;code&gt;--a&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;It decrements the variable first then returns the value&lt;/p&gt;
+
+&lt;p&gt;Example -&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;var a = 3;
+console.log(--a); // 2
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;a name=&#34;post-increment&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;3-6-8-post-increment:e05609db6fa180fe6a887d342df1b7db&#34;&gt;3.6.8. Post-Increment&lt;/h3&gt;
+
+&lt;p&gt;Represented by &lt;code&gt;a++&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;It returns the variable first then increments its value&lt;/p&gt;
+
+&lt;p&gt;Example -&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;var a = 3;
+console.log(a++); // 3
+// now a = 4
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;a name=&#34;post-decrement&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;3-6-9-post-decrement:e05609db6fa180fe6a887d342df1b7db&#34;&gt;3.6.9. Post-Decrement&lt;/h3&gt;
+
+&lt;p&gt;Represented by &lt;code&gt;a--&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;It returns the variable first then decrements its value&lt;/p&gt;
+
+&lt;p&gt;Example -&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;var a = 3;
+console.log(a--); // 3
+// now a = 2
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;a name=&#34;intermediate-level&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;4-intermediate-level:e05609db6fa180fe6a887d342df1b7db&#34;&gt;4. Intermediate Level&lt;/h1&gt;
+
+&lt;p&gt;&lt;a name=&#34;If-Else&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;4-1-if-else:e05609db6fa180fe6a887d342df1b7db&#34;&gt;4.1. If&amp;hellip;Else&lt;/h1&gt;
+
+&lt;p&gt;If&amp;hellip;Else statements are executed on certain condition&lt;/p&gt;
+
+&lt;p&gt;The main gist of If&amp;hellip;Else is if some condition is true then perform X otherwise perform Y&lt;/p&gt;
+
+&lt;p&gt;Following are the 2 ways to write If&amp;hellip;Else statements -&lt;/p&gt;
+
+&lt;p&gt;&lt;a name=&#34;if-else&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;4-1-1-if-else:e05609db6fa180fe6a887d342df1b7db&#34;&gt;4.1.1. if&amp;hellip;else&lt;/h1&gt;
+
+&lt;p&gt;if&amp;hellip;else in JavaScript is represented as follows -&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;if(/* some condition*/) {
+	/* perform this if condition is true */
+}
+else {
+	/* perform this if condition is false */
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;We can also have nested if&amp;hellip;else represented as follows -&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;if(/* some condition*/) {
+	if(/* some other condition*/) {
+		/* perform this if both conditions are true */
+	}
+	else {
+		/* perform this if 1st condition is true &amp;amp; 2nd condition is false */
+	}
+}
+else {
+	/* perform this if condition is false */
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;We can also have if&amp;hellip;else&amp;hellip;if represented as follows -&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;if(/* some condition*/) {
+	/* perform this if condition is true */
+}
+else if(/* some other condition*/) {
+	/* perform this if 1st condition is false &amp;amp; 2nd condition is true */
+}
+else {
+	/* perform this if both conditions are false */
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;a name=&#34;ternary-operator&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;4-1-2-ternary-operator:e05609db6fa180fe6a887d342df1b7db&#34;&gt;4.1.2. ternary operator&lt;/h1&gt;
+
+&lt;p&gt;ternary operator is represented by &lt;code&gt;? :&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Example -&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;var even = x % 2 === 0 ? true : false;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;If &lt;code&gt;x % 2 is 0&lt;/code&gt; then &lt;code&gt;even&lt;/code&gt; is set to &lt;code&gt;true&lt;/code&gt; else it is set to &lt;code&gt;false&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a name=&#34;do-while&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;4-2-do-while:e05609db6fa180fe6a887d342df1b7db&#34;&gt;4.2. do&amp;hellip;while&lt;/h1&gt;
+
+&lt;p&gt;do while loop is also known as exit controlled loop since the condition is checked when exiting the loop&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;do {
+	/*
+		some code
+	*/
+} while(/* some condition*/);
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Example -&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;var x = 4;
+do {
+	x /= 2;
+} while(x % 2 != 1);
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;a name=&#34;while&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;4-3-while:e05609db6fa180fe6a887d342df1b7db&#34;&gt;4.3. while&lt;/h1&gt;
+
+&lt;p&gt;while loop is also known as entry controlled loop since the condition is checked when entering the loop&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;while(/* some condition*/) {
+	/*
+		some code
+	*/
+};
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Example -&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;var x = 4;
+while (x/2 !== 0) {
+	x--;
+};
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;a name=&#34;for-loop&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;4-4-for-loop:e05609db6fa180fe6a887d342df1b7db&#34;&gt;4.4. for-loop&lt;/h1&gt;
+
+&lt;p&gt;for loop is used when number of iterations to be performed are already known&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;for(/* initialization */ ; /* some condition*/ ; /* modification */) {
+	/*
+		some code
+	*/
+};
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Example -&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;for(var i = 0; i &amp;lt; 5; i++) {
+	console.log(i);
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;a name=&#34;switch-case&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;4-5-switch-case:e05609db6fa180fe6a887d342df1b7db&#34;&gt;4.5. switch&amp;hellip;case&lt;/h1&gt;
+
+&lt;p&gt;switch case is used when there are multiple if&amp;hellip;else&amp;rsquo;s&lt;/p&gt;
+
+&lt;p&gt;Example -&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;var x = &#39;A&#39;;
+switch(x) {
+	case &#39;a&#39;:
+	case &#39;A&#39;:
+	case &#39;e&#39;:
+	case &#39;E&#39;:
+	case &#39;i&#39;:
+	case &#39;I&#39;:
+	case &#39;o&#39;:
+	case &#39;O&#39;:
+	case &#39;u&#39;:
+	case &#39;U&#39;:
+		console.log(&#39;Vowel&#39;);
+		break;
+	default: 
+		console.log(&#39;Consonant&#39;);
+};
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;a name=&#34;binary-and&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;4-6-binary-and:e05609db6fa180fe6a887d342df1b7db&#34;&gt;4.6. binary and&lt;/h1&gt;
+
+&lt;p&gt;&lt;code&gt;binary and&lt;/code&gt; is represented by &lt;code&gt;&amp;amp;&amp;amp;&lt;/code&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;true &amp;amp;&amp;amp; true = true
+false &amp;amp;&amp;amp; true = false
+true &amp;amp;&amp;amp; false = false
+false &amp;amp;&amp;amp; false = false
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Example -&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;var a = true;
+var b = false;
+var c = a &amp;amp;&amp;amp; b;
+console.log(c); // false
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;a name=&#34;binary-or&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;4-7-binary-or:e05609db6fa180fe6a887d342df1b7db&#34;&gt;4.7. binary or&lt;/h1&gt;
+
+&lt;p&gt;&lt;code&gt;binary or&lt;/code&gt; is represented by &lt;code&gt;||&lt;/code&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;true || true = true
+false || true = true
+true || false = true
+false || false = false
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Example -&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;var a = true;
+var b = false;
+var c = a || b;
+console.log(c); // true
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;a name=&#34;functions&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;4-8-functions:e05609db6fa180fe6a887d342df1b7db&#34;&gt;4.8. functions&lt;/h1&gt;
+
+&lt;p&gt;Functions are used when some chunk of code is repeated more than once&lt;/p&gt;
+
+&lt;p&gt;Example -&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;// Function Declaration
+function isOdd(x) {
+	return x % 2 === 1;
+}
+
+// Function Call
+isOdd(5); // true
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Functions can be stored in a variable for later use&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;var oddFn = function isOdd(x) {
+	return x % 2 === 1;
+};
+
+oddFn(4); // false
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Functions can also be anonymous when stored in a variable&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;var oddFn = function(x) {
+	return x % 2 === 1;
+};
+
+oddFn(1); // true
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;a name=&#34;array&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;4-9-array:e05609db6fa180fe6a887d342df1b7db&#34;&gt;4.9. array&lt;/h1&gt;
+
+&lt;p&gt;Arrays are special types of objects which have keys as the numbers starting from index &lt;code&gt;0&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Arrays are declared as follows -&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;var arr = [1, 2, 3, 4, 5];
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;There are different methods on array such as &lt;code&gt;length&lt;/code&gt;, &lt;code&gt;push()&lt;/code&gt; , &lt;code&gt;pop()&lt;/code&gt;, &lt;code&gt;shift()&lt;/code&gt; &amp;amp; &lt;code&gt;unshift()&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;All methods can be found by console logging &lt;code&gt;Array().__proto__&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Example -&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;var arr = [1, 2, 3];
+arr.length; // 3
+arr.push(4); // [1, 2, 3, 4]
+arr.pop(); // [1, 2, 3]
+arr.unshift(4); // [4, 1, 2, 3]
+arr.shift(); // [1, 2, 3]
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;a name=&#34;advanced-level&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;5-advanced-level:e05609db6fa180fe6a887d342df1b7db&#34;&gt;5. Advanced Level&lt;/h1&gt;
+
+&lt;p&gt;&lt;a name=&#34;iffe&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;5-1-immediately-invoked-function-expression-iife:e05609db6fa180fe6a887d342df1b7db&#34;&gt;5.1. Immediately Invoked Function Expression (IIFE)&lt;/h1&gt;
+
+&lt;p&gt;IIFEs are used inorder not to bloat the global namespace&lt;/p&gt;
+
+&lt;p&gt;IIFE stands for Immediately Invoked Function Expression which means the function gets called immediately after declaration&lt;/p&gt;
+
+&lt;p&gt;It is represented as follows -&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;(function () {
+	console.log(&#39;I am an IFFE&#39;);
+})();
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;a name=&#34;closure&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;5-2-closure:e05609db6fa180fe6a887d342df1b7db&#34;&gt;5.2. Closure&lt;/h1&gt;
+
+&lt;p&gt;Closure is an inner function who has access to the outer functions variables&lt;/p&gt;
+
+&lt;p&gt;Example -&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;function outer(name, age) {
+	
+	function inner() {
+		console.log(&#39;My name is &#39; + name + &#39; &amp;amp; my age is &#39; + age);
+	}
+
+	return inner;
+}
+
+
+var john = outer(&#39;John&#39;, 38);
+john(); // My name is John &amp;amp; my age is 38
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Notice that the variables &lt;code&gt;name&lt;/code&gt; &amp;amp; &lt;code&gt;age&lt;/code&gt; are still remembered long after the function is executed&lt;/p&gt;
+
+&lt;p&gt;The variables &lt;code&gt;name&lt;/code&gt; &amp;amp; &lt;code&gt;age&lt;/code&gt; are global to the &lt;code&gt;inner&lt;/code&gt; function&lt;/p&gt;
+
+&lt;p&gt;Another example of Closure can be as follows -&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;var updateFn = function() {
+	var counter = 0;
+	return function() {
+		return ++counter;
+	};
+};
+var updateCounter = updateFn();
+updateCounter();
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The variable &lt;code&gt;counter&lt;/code&gt; is freed from the memory as soon as &lt;code&gt;updateFn&lt;/code&gt; is executed but it is because of &lt;code&gt;Closure&lt;/code&gt; that the value of &lt;code&gt;counter&lt;/code&gt; is still remembered&lt;/p&gt;
+
+&lt;p&gt;&lt;a name=&#34;hoisting&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;5-3-hoisting:e05609db6fa180fe6a887d342df1b7db&#34;&gt;5.3. Hoisting&lt;/h1&gt;
+
+&lt;p&gt;Hoisting in JavaScript moves the declaration of variables &amp;amp; functions to the top&lt;/p&gt;
+
+&lt;p&gt;JavaScript Declarations are hoisted&lt;/p&gt;
+
+&lt;p&gt;Example -&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;// What we write
+function add() {
+	var add2Numbers = sum(5,6);
+	return add2Numbers;
+
+	function sum(x, y) {
+		return x + y;
+	}
+}
+
+
+// How JavaScript sees
+function add() {
+	var add2Numbers = undefined;
+	function sum(x, y) {
+		return x + y;
+	}
+
+	add2Numbers = sum(5,6);
+	return add2Numbers;
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Also, in JavaScript Hoisting, functions are hoisted first, then variable declarations&lt;/p&gt;
+
+&lt;p&gt;Example -&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;function a() {}
+var a;
+console.log(a); // function a() {}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;As variable &lt;code&gt;a&lt;/code&gt; is undefined; &lt;code&gt;function a() {}&lt;/code&gt; will be logged&lt;/p&gt;
+
+&lt;p&gt;Another Example -&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;var a;
+function a() {}
+console.log(a); // function a() {}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Here, also it logs out &lt;code&gt;function a() {}&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a name=&#34;objects&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;5-4-objects:e05609db6fa180fe6a887d342df1b7db&#34;&gt;5.4. Objects&lt;/h1&gt;
+
+&lt;p&gt;In JavaScript, everything is an Object&lt;/p&gt;
+
+&lt;p&gt;All JavaScript values except Primitive Values are Objects&lt;/p&gt;
+
+&lt;p&gt;Primitive Values are &lt;code&gt;null&lt;/code&gt;, &lt;code&gt;undefined&lt;/code&gt;, &lt;code&gt;boolean&lt;/code&gt;, &lt;code&gt;string&lt;/code&gt; &amp;amp; &lt;code&gt;number&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Objects are Data Types containing &lt;code&gt;&amp;lt;key, value&amp;gt;&lt;/code&gt; pair&lt;/p&gt;
+
+&lt;p&gt;Example -&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;var person = {
+	name: &#39;Desmond Hume&#39;,
+	age: 43,
+	quote: &#39;I will see you in another life, brotha&#39;
+};
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;In the above example, &lt;code&gt;person&lt;/code&gt; is an object&lt;/p&gt;
+
+&lt;p&gt;The &lt;code&gt;&amp;lt;key&amp;gt;&lt;/code&gt; in the &lt;code&gt;&amp;lt;key, value&amp;gt;&lt;/code&gt; pair must always be a string &amp;amp; the &lt;code&gt;&amp;lt;value&amp;gt;&lt;/code&gt; can be any Data Type in JavaScript even another Object&lt;/p&gt;
+
+&lt;p&gt;Example -&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;var person = {
+	name: {
+		firstname: &#39;Desmond&#39;,
+		lastname: &#39;Hume&#39;
+	},
+	age: 43,
+	quote: &#39;I will see you in another life, brotha&#39;
+};
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The &lt;code&gt;&amp;lt;value&amp;gt;&lt;/code&gt; can also be a function&lt;/p&gt;
+
+&lt;p&gt;Example -&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;var person = {
+	name: {
+		firstname: &#39;Desmond&#39;,
+		lastname: &#39;Hume&#39;
+	},
+	age: 43,
+	quote: &#39;I will see you in another life, brotha&#39;,
+	printAge: function() {
+		console.log(this.age);
+	}	
+};
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Objects can also be created using the &lt;code&gt;new&lt;/code&gt; keyword&lt;/p&gt;
+
+&lt;p&gt;Example -&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;var person = new Object();
+person.name = &#39;Desmond Hume&#39;;
+person.age = 43;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The above method creates only one object&lt;/p&gt;
+
+&lt;p&gt;Inorder to create Multiple Objects we need to use Object Constructor&lt;/p&gt;
+
+&lt;p&gt;Example -&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;function movie(name, rating, year) {
+	this.name = name;
+	this.rating = rating;
+	this.year = year;
+}
+
+var TheGodfather = movie(&#39;The Godfather&#39;, 9.5, 1972);
+var Drishyam = movie(&#39;Drishyam&#39;, 8.8, 2016);
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;By using the Object Constructor method we can create Multiple Objects&lt;/p&gt;
+
+&lt;p&gt;&lt;a name=&#34;this&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;5-5-this-keyword:e05609db6fa180fe6a887d342df1b7db&#34;&gt;5.5. &lt;code&gt;this&lt;/code&gt; keyword&lt;/h1&gt;
+
+&lt;p&gt;As seen in the example above, &lt;code&gt;this&lt;/code&gt; keyword is used&lt;/p&gt;
+
+&lt;p&gt;Notice that &lt;code&gt;this&lt;/code&gt; is not a variable in JavaScript, it is a keyword which means you cannot change the value of &lt;code&gt;this&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;The value of &lt;code&gt;this&lt;/code&gt;, when used in a function, is the object that owns the function&lt;/p&gt;
+
+&lt;p&gt;The value of &lt;code&gt;this&lt;/code&gt;, when used in an object, is the object itself&lt;/p&gt;
+
+&lt;p&gt;The &lt;code&gt;this&lt;/code&gt; keyword in an object constructor does not have a value. It is only a substitute for the new object. The value of &lt;code&gt;this&lt;/code&gt; will become the new object when the constructor is used to create an object.&lt;/p&gt;
+
+&lt;p&gt;Example -&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;function tvseries(name, year) {
+	this.name = name;
+	this.year = year;
+}
+
+var Lost = tvseries(&#39;Lost&#39;, 2004);
+var Dexter = tvseries(&#39;Dexter&#39;, 2006);
+var GOT = tvseries(&#39;GOT&#39;, 2011);
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Here is another example of &lt;code&gt;this&lt;/code&gt; -&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;var person = {
+    name: &#39;Joey&#39;,
+    printName: function() {
+        console.log(this.name);
+    }
+};
+
+person.printName(); // Joey
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
