@@ -46,7 +46,7 @@ params:
     paragraph: "JavaScript Lover 😘 NodeJS as GF 😜 React & ReactNative Spouse 😍 Blogger by Day 😌 Coder by Night 😋"
     #about    : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tellus lacus, auctor vehicula molestie quis, tempor quis velit. Quisque in quam ac leo efficitur vulputate. Phasellus ullamcorper aliquam sodales. Maecenas sit amet condimentum ipsum. Proin sit amet ligula elit. Mauris."
     pic:
-      src      : "/images/dexter.jpg"
+      src      : "./images/dexter.jpg"
       # modify your picture in the shape of a circle or
       # future imperfect's hexagonal shape
       circle   : false

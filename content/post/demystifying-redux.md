@@ -30,7 +30,7 @@ title = "demystifying redux"
 
 +++
 
-![Demystifying Redux](/images/demystifying-redux/home.jpg)
+![Demystifying Redux](./images/demystifying-redux/home.jpg)
 
 # Introduction
 
@@ -42,7 +42,7 @@ This article will ensure that you understand Redux with the help of some example
 
 After reading this article I promise you, you will say this -
 
-![I know Redux](/images/demystifying-redux/i-know-redux.jpg)
+![I know Redux](./images/demystifying-redux/i-know-redux.jpg)
 
 This article will make you fall in love ❤️ with Redux.
 
@@ -90,17 +90,17 @@ For example,
 
 Consider a simple `COUNTER APPLICATION` which consists of the `CURRENT COUNT` & also has 2 buttons `INCREMENT`  & `DECREMENT`.
 
-![Counter Application](/images/demystifying-redux/counter.png)
+![Counter Application](./images/demystifying-redux/counter.png)
 
 Here, the only thing to be remembered in the application is the `CURRENT COUNT` value as it is the one changing constantly whenever user clicks `INCREMENT` or `DECREMENT` button that's why for the `COUNTER APPLICATION`, the state is `CURRENT COUNT`.
 
 Consider another example application like a `BLOG POST`, it will consists of a lot of different blogs.
 
-![Blog Post 1](/images/demystifying-redux/blog-1.png)
+![Blog Post 1](./images/demystifying-redux/blog-1.png)
 
 Each of the blog post will have `COMMENT` section & each of the comments will have `HEART` to show some love to the post. Here, the state of the application which needs to be remembered is the `COMMENT` & `HEART` as these are the ones changing. 
 
-![Blog Post 2](/images/demystifying-redux/blog-2.png)
+![Blog Post 2](./images/demystifying-redux/blog-2.png)
 
 `COMMENT` is in the state because if someone clicks on `HEART` to show some love the comment then on which comment it was clicked must be remembered so that's the reason `COMMENT` is needed or if you prefer you can use a specific `ID` which is unique for each comment as the state.
 
@@ -314,7 +314,7 @@ The 3 basic principles of Redux are -
 
 The state of the whole application is stored in a big JavaScript Object.
 
-![Single Source of Truth](/images/demystifying-redux/single-source-of-truth.png)
+![Single Source of Truth](./images/demystifying-redux/single-source-of-truth.png)
 
 <a name="read-only-state"></a>
 
