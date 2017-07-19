@@ -1,6 +1,6 @@
 baseurl: "https://theunknown0904.github.io/javascript/"
 languageCode: "en-us"
-title: "The Unknown - JavaScript Lover 😘 NodeJS as GF 😜 React & ReactNative Spouse 😍 Blogger by Day 😌 Coder by Night 😋"
+title: "The Unknown - JavaScript Lover 😘 Blogger by Day 😌 Coder by Night 😋"
 theme: "hugo-future-imperfect"
 
 preserveTaxonomyNames: true
@@ -43,10 +43,10 @@ params:
 # This is optional, but it's suggested to use
   intro:
     #header   : "Facile Engineering"
-    paragraph: "JavaScript Lover 😘 NodeJS as GF 😜 React & ReactNative Spouse 😍 Blogger by Day 😌 Coder by Night 😋"
+    paragraph: "JavaScript Lover 😘 Blogger by Day 😌 Coder by Night 😋"
     #about    : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tellus lacus, auctor vehicula molestie quis, tempor quis velit. Quisque in quam ac leo efficitur vulputate. Phasellus ullamcorper aliquam sodales. Maecenas sit amet condimentum ipsum. Proin sit amet ligula elit. Mauris."
     pic:
-      src      : "./images/dexter.jpg"
+      src      : "/javascript/images/dexter.jpg"
       # modify your picture in the shape of a circle or
       # future imperfect's hexagonal shape
       circle   : false
